@@ -62,9 +62,6 @@ header#home nav  {
 }
 .container__home__logo {
     display: flex;
-    
-    width: 120px;
-    height: 120px;
     padding: 10px;
     filter: brightness(50%);
 
