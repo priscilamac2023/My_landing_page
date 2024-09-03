@@ -1,0 +1,34 @@
+.container__contato {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #e3e3e3;
+    text-align: center;
+}
+
+.container__contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container__contato input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container__contato button {
+    padding: 10px;
+    background-color: #297a72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container__contato button:hover {
+    background-color: #58d856;
+}
