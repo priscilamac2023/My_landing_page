@@ -15,6 +15,7 @@
 
 }
 
+
 #tratamento h2 {
     font-size: 28px;
     margin-bottom: 20px;
@@ -61,4 +62,40 @@
 
 .card h3:hover {
     color: #49b749;
+}
+
+
+
+#tratamento  .cards .card .card__imagem1,  .card__imagem2, .card__imagem3, .card__imagem4, .card__imagem5 , .card__video{
+    width: 100%;
+    height: auto;
+}
+@media(max-width:1090px){
+
+    #tratamento{
+        width: 100%;
+        max-width: calc(1090px-80px);
+        flex-direction: row;
+    }
+
+    .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 20px;
+        gap: 50px;
+    }
+}
+@media(max-width:430px){
+    #tratamento{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 280px;
+    }
 }
