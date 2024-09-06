@@ -32,7 +32,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .container__secao--1 .foto{
@@ -49,4 +49,20 @@
     text-align: justify;
     border-left: 2px solid #297A72;
     padding: 20px 40px;
+}
+
+@media (max-width: 430px ){
+    .container__secao--1 {
+        width: 360px;
+        flex-direction: column;
+    }
+    .paragrafo__seçao--1 {
+        border-left: unset;
+        font-weight: 300;
+        width: 340px;
+        font-size: 18px;
+        padding: 10px;
+
+}
+
 }
